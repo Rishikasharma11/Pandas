@@ -15,4 +15,4 @@ def team_count(team):
     mask = data['Team'] == team
     return data[mask].shape[0]  
 
-team_count('Boston Celtics')
+print(team_count('Boston Celtics'))
